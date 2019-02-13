@@ -5,9 +5,11 @@ var mailInserita = prompt("digita il tuo indirizza e-mail:");
 
 for (var i=0 ; i< mailAdd.length ; i++ ){
   console.log(mailAdd[i]);
-  if (mailInserita==i) {
+
+  if ( mailAdd[i] == mailInserita ) {
     alert("Benvenuto!");
   }else {
     alert("la tua mail non è corretta!");
   }
+
 }
